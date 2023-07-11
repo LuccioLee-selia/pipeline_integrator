@@ -1,0 +1,16 @@
+{
+	"tabelas":[
+        { 
+            "nome":"orders",
+            "org_table":"orders",
+            "tgt_table":"integrator_orders",
+            "sql_text": "SELECT *"
+        },
+        {
+            "nome":"payment",
+            "org_table":"payment",
+            "tgt_table":"integrator_payment",
+            "sql_text": "SELECT *"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  pipelineintegretor:
+    image: pipelineintegretor
+    build:
+      context: .
+      dockerfile: ./Dockerfile
